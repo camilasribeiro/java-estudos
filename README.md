@@ -6,7 +6,7 @@ Bem-vindo ao meu repositório de estudos de Java! 🚀
 O repositório está organizado em pastas, cada uma com um propósito específico:
 
 - **`livro-use-a-cabeca-java/`**: Exemplos e exercícios retirados de livros que estou utilizando para aprender Java.
-- **`exercicios/`**: Atividades práticas e desafios para fixar os conceitos aprendidos.
+- **`exercicios-xti/`**: Atividades práticas e desafios para fixar os conceitos aprendidos no curso de Java da Faculdade XTI.
 
 ## 🚀 Objetivo
 Este repositório foi criado para:
