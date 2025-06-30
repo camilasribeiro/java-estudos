@@ -1,0 +1,7 @@
+package pessoa;
+
+public class Pessoa {
+    void saudacao() {
+        System.out.println("Hello, World!");
+    }
+}
