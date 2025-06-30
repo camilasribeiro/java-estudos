@@ -30,8 +30,8 @@ public class Variavel {
 		//Constantes
 		int populacaoBrasileira = 203429773;
 		final double PI = 3.14159265358979323846; // se eu tentar mudar vai dar erro, pois é uma constante
-		final char = SEXO_MASCULINO = "M"; // variável constante sempre em MAIUSCULA
-		final char = SEXO_FEMININO = "F"; // se o nome for composto deve usar underline _
+		final char SEXO_MASCULINO = 'M'; // variável constante sempre em MAIUSCULA
+		final char SEXO_FEMININO = 'F'; // se o nome for composto deve usar underline _
 		
 		
 		//Wrapper
