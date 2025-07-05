@@ -7,7 +7,7 @@ public class JavaDataTypes {
         int testCases = Integer.parseInt(scanner.nextLine());
 
         for (int i = 0; i < testCases; i++) {
-            String input = scanner.nextLine(); //usei string para não ultrapassar o long e dar erro
+            String input = scanner.nextLine();
 
             try {
                 long valor = Long.parseLong(input);
