@@ -8,12 +8,10 @@ public class Operators {
         int tipPercent = scanner.nextInt();
         int taxPercent = scanner.nextInt();
 
-
         double tip = mealCost * ((double) tipPercent / 100);
         double tax = mealCost * ((double) taxPercent / 100);
         double totalCost = mealCost + tip + tax;
 
         System.out.println((int) Math.round(totalCost));
-
     }
 }
