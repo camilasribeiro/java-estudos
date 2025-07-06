@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class JavaStringsIntroduction {
@@ -19,6 +18,3 @@ public class JavaStringsIntroduction {
         System.out.println(capitalizedA + " " + capitalizedB);
     }
 }
-
-
-
