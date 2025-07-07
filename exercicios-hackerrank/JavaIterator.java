@@ -14,7 +14,7 @@ public class JavaIterator{
 
     }
     @SuppressWarnings({ "unchecked" })
-    public static void main(String []args){
+    public static void main(String[] args){
         ArrayList mylist = new ArrayList();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
