@@ -11,6 +11,14 @@ public class Produto {
         this.quantidade = quantidade;
     }
 
+    public double getPreco() {
+        return preco;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
     @Override
     public String toString(){
         return String.format("[Produto: %s | Preço R$ %.2f | Quantidade: %d]", nome, preco, quantidade);

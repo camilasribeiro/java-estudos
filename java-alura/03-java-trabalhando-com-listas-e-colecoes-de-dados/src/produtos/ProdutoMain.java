@@ -16,9 +16,16 @@ public class ProdutoMain {
 
         System.out.println("Tamanho da lista de produtos: " + listaProdutos.size());
 
+        double somaPrecosProdutos = 0;
+        int quantidadeProdutos = 0;
         for (Produto produto : listaProdutos) {
             System.out.println(produto);
+            somaPrecosProdutos += produto.getPreco() * produto.getQuantidade();
+            quantidadeProdutos += produto.getQuantidade();
         }
+        System.out.println("Quantidade total de produtos: " + quantidadeProdutos);
+        double precoMedioProdutos = somaPrecosProdutos / quantidadeProdutos;
+        System.out.printf("Preço médio dos produtos: R$ %.2f", precoMedioProdutos);
 
         ProdutoPerecivel produtoPerecivel1 = new ProdutoPerecivel("Leite", 3.50, 5, "20/09/2025");
         ProdutoPerecivel produtoPerecivel2 = new ProdutoPerecivel("Carne", 35.00, 1, "22/07/2025");
@@ -29,10 +36,18 @@ public class ProdutoMain {
         listaProdutosPereciveis.add(produtoPerecivel2);
         listaProdutosPereciveis.add(produtoPerecivel3);
 
-        System.out.println("Tamanho da lista de produtos perecíveis: " + listaProdutosPereciveis.size());
+        System.out.println("\n\nTamanho da lista de produtos perecíveis: " + listaProdutosPereciveis.size());
 
+        double somaPrecosProdutosPereciveis = 0;
+        int quantidadeProdutosPereciveis = 0;
         for (Produto produtoPerecivel : listaProdutosPereciveis) {
             System.out.println(produtoPerecivel);
+            somaPrecosProdutosPereciveis += produtoPerecivel.getPreco() * produtoPerecivel.getQuantidade();
+            quantidadeProdutosPereciveis += produtoPerecivel.getQuantidade();
         }
+
+        System.out.println("Quantidade total de produtos: " + quantidadeProdutosPereciveis);
+        double precoMedioProdutosPereciveis = somaPrecosProdutosPereciveis / quantidadeProdutosPereciveis;
+        System.out.printf("Preço médio dos produtos perecíveis: R$ %.2f", precoMedioProdutosPereciveis);
     }
 }
