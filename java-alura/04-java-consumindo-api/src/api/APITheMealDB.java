@@ -9,13 +9,13 @@ import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
-public class APIGoogleBooks {
+public class APITheMealDB {
     public static void main (String[] args) throws IOException, InterruptedException {
         Scanner leitura = new Scanner(System.in);
-        System.out.println("Digite um livro para busca: ");
-        var nomeLivro = leitura.nextLine();
-        String nomeLivroFormatado = URLEncoder.encode(nomeLivro, StandardCharsets.UTF_8);
-        String endereco = "https://www.googleapis.com/books/v1/volumes?q=" + nomeLivroFormatado;
+        System.out.println("Insira o nome de uma receita: ");
+        var nomeReceita = leitura.nextLine();
+        String nomeReceitaFormatada = URLEncoder.encode(nomeReceita, StandardCharsets.UTF_8);
+        String endereco = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + nomeReceitaFormatada;
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
