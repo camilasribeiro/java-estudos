@@ -11,5 +11,6 @@ public class SistemaDeLog {
         System.out.println("Tarefa: \"" + tarefa + "\"");
         System.out.println("Data atual: " + data);
         System.out.println("Hora atual: " + hora);
+        
     }
 }
