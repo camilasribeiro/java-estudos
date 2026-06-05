@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class ProdutoTeste {
+public class ProdutoMain {
     public static void main(String[] args) {
         Produto novoProduto = new Produto();
         novoProduto.setNome("Mouse");

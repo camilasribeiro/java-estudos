@@ -1,4 +1,4 @@
-public class VeiculoTeste {
+public class VeiculoMain {
     public static void main(String[] args) {
         Veiculo meuVeiculo = new Veiculo("Gol", "ABC-1234", 2026);
 
