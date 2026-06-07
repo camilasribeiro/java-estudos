@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Filme {
     private String titulo;
-     private ArrayList<Integer> avaliacoes;
+    private ArrayList<Integer> avaliacoes;
 
     public Filme(String titulo) {
         this.titulo = titulo;
