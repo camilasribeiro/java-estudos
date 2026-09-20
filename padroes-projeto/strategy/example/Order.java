@@ -1,9 +1,7 @@
-package order;
-
-import example.PayStrategy;
+package example;
 
 /**
- * order.Order class. Doesn't know the concrete paument method (strategy) user has
+ * example.Order class. Doesn't know the concrete paument method (strategy) user has
  * picket. It uses common strategy interface to delegate collecting payment data
  * to strategy object. It can be used to save order to database.
  */
