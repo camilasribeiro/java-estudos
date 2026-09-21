@@ -3,7 +3,7 @@ package example;
 /**
  * DemoStrategy class. Everything comes together here.
  */
-public class Demo {
+public class DemoFactory {
     private static Dialog dialog;
 
     public static void main(String[] args) {
