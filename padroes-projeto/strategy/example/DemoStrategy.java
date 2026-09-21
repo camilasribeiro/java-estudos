@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * World first conse e-commerce application
  */
-public class Demo {
+public class DemoStrategy {
     private static Map<Integer, Integer> priceOnProducts = new HashMap<>();
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static Order order = new Order();
